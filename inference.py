@@ -43,7 +43,7 @@ if __name__ == '__main__':
 	imgfile="./data/dog.jpg"
 	model1=inference(weightfile="./Yolov4.pth",is_half=True)
 	img = cv2.imread(imgfile)
-	model1.infer(img)
+	model1.infer(img)##warming up
 	model1.infer(img)
 
 
