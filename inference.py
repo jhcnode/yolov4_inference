@@ -5,9 +5,8 @@ from tool.utils import load_class_names, plot_boxes_cv2
 from tool.torch_utils import do_detect
 from models import Yolov4
 import cv2
-torch.backends.cudnn.enabled=True
-#torch.backends.cudnn.benchmark = True
-#torch.backends.cudnn.deterministic = True
+torch.backends.cudnn.benchmark = True
+
 
 class inference(object):
 	def __init__(self,weightfile,num_classes=80,width=416,height=416,use_cuda = True,is_half=True):
