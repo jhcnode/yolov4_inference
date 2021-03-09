@@ -8,7 +8,7 @@ opencv-contrib-python==4.5.1.48
 
 ## Setup
 1. Download weights [yolov4.pth](https://github.com/jhcnode/yolov4_inference/releases/download/1.0/yolov4.pth)
-2. The wieghts file moves to project directory 
+2. The weights file moves to project directory 
  
 ## Features
 1. float32 precision inference 
